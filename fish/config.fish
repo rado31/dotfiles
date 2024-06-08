@@ -1,5 +1,5 @@
 set fish_greeting ""
 
-alias ll "exa --long --header --icons"
-alias lla "exa --long --header --icons -a"
-alias cat "batcat"
+alias ll "eza --long --header --icons"
+alias lla "eza --long --header --icons -a"
+alias cat "bat"

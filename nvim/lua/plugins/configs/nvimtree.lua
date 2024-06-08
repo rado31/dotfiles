@@ -1,14 +1,14 @@
-local options = {
+return {
     filters = {
-        custom = { "node_modules", "venv" },
+        custom = { 'node_modules', 'venv' },
     },
     update_focused_file = {
         enable = true,
-        update_root = true,
+        update_root = false,
     },
     view = {
         adaptive_size = true,
-        side = "left",
+        side = 'left',
     },
     git = {
         enable = true,
@@ -29,5 +29,3 @@ local options = {
         },
     },
 }
-
-return options
