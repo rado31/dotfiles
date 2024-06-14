@@ -1,6 +1,6 @@
 return {
     filters = {
-        custom = { 'node_modules', 'venv' },
+        custom = { 'node_modules', 'venv', '.git' },
     },
     update_focused_file = {
         enable = true,

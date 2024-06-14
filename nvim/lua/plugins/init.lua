@@ -50,7 +50,7 @@ return {
     {
         'williamboman/mason.nvim',
         opts = {
-            ensure_installed = { 'lua-language-server' },
+            ensure_installed = { 'lua-language-server', 'stylua' },
         },
     },
     {
@@ -64,14 +64,14 @@ return {
                 'html',
                 'css',
                 'rust',
-				'toml',
+                'toml',
                 'go',
                 'gomod',
                 'gosum',
                 'svelte',
                 'javascript',
                 'typescript',
-				'tsx',
+                'tsx',
                 'markdown',
                 'markdown_inline',
             },
