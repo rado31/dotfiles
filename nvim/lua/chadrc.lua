@@ -7,6 +7,9 @@ M.ui = {
     statusline = {
         theme = 'vscode_colored',
     },
+    lsp = {
+        signature = false,
+    },
 }
 
 return M
