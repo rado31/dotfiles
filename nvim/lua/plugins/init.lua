@@ -50,4 +50,11 @@ return {
 			},
 		},
 	},
+
+	{
+		'nvim-tree/nvim-tree.lua',
+		opts = function()
+			return require 'plugins.configs.nvimtree'
+		end,
+	},
 }
