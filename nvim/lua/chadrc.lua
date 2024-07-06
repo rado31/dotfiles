@@ -2,7 +2,7 @@
 local M = {}
 
 M.ui = {
-    theme = 'oceanic-next',
+    theme = 'onedark',
     telescope = { style = 'bordered' },
     statusline = {
         theme = 'vscode_colored',
