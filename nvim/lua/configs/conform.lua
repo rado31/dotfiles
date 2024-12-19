@@ -3,15 +3,15 @@ local options = {
 		lua = { 'stylua' },
 		javascript = { 'prettierd' },
 		typescript = { 'prettierd' },
-		javacriptreact = { 'prettierd' },
+		javascriptreact = { 'prettierd' },
 		typescriptreact = { 'prettierd' },
+		svelte = { 'svelte' },
 	},
 
 	format_on_save = {
-		-- These options will be passed to conform.format()
 		timeout_ms = 500,
 		lsp_fallback = true,
 	},
 }
 
-require('conform').setup(options)
+return options

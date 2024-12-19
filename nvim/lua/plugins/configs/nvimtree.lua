@@ -1,5 +1,5 @@
 return {
-	filters = { custom = { 'node_modules', 'venv', '.git' } },
+	filters = { custom = { 'node_modules', 'venv', '.git', '.svelte-kit' } },
 	update_focused_file = {
 		enable = true,
 		update_root = false,
