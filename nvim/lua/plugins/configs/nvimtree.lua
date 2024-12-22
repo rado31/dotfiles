@@ -22,7 +22,7 @@ return {
 
 		icons = {
 			show = {
-				git = true,
+				git = false,
 			},
 		},
 	},
