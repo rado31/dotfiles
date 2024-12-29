@@ -1,0 +1,15 @@
+theme = 'everforest_dark'
+
+[editor]
+line-number = 'relative'
+mouse = true
+cursorline = true
+rulers = [80]
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+"$" = "goto_line_end"
+"0" = "goto_line_start"
+space= { x = ":buffer-close" }
