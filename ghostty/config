@@ -1,0 +1,18 @@
+theme = EverforestLow
+fullscreen = true
+
+cursor-style = block
+cursor-style-blink = false
+cursor-invert-fg-bg = true
+
+font-size = 20
+
+shell-integration = fish
+shell-integration-features = no-cursor 
+copy-on-select = clipboard
+
+macos-option-as-alt = true
+mouse-hide-while-typing = true
+
+auto-update = check
+auto-update-channel = stable
