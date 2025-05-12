@@ -6,6 +6,8 @@ cursor-style-blink = false
 cursor-invert-fg-bg = true
 
 font-size = 20
+font-family = "Rec Mono Casual"
+adjust-cell-height = 20%
 
 shell-integration = fish
 shell-integration-features = no-cursor 
