@@ -4,12 +4,20 @@ theme = 'everforest_dark'
 line-number = 'relative'
 mouse = true
 cursorline = true
-rulers = [80]
+rulers = [100]
 
 [editor.file-picker]
 hidden = false
 
 [keys.normal]
+";" = "command_mode"
 "$" = "goto_line_end"
 "0" = "goto_line_start"
+"'" = "collapse_selection"
 space= { x = ":buffer-close" }
+
+[keys.select]
+";" = "command_mode"
+"$" = "goto_line_end"
+"0" = "goto_line_start"
+"'" = "collapse_selection"
