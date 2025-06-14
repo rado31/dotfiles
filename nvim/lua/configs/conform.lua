@@ -5,7 +5,6 @@ local options = {
 		typescript = { 'prettierd' },
 		javascriptreact = { 'prettierd' },
 		typescriptreact = { 'prettierd' },
-		svelte = { 'svelte' },
 	},
 
 	format_on_save = {

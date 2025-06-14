@@ -22,11 +22,13 @@ return {
 				'rust',
 				'toml',
 				'yaml',
+				'zig',
 				'typescript',
 				'javascript',
 				'tsx',
-				'svelte',
 				'css',
+				'html',
+				'vue',
 				'markdown',
 				'markdown_inline',
 			},
@@ -38,5 +40,17 @@ return {
 		opts = function()
 			return require 'plugins.configs.nvimtree'
 		end,
+	},
+
+	{
+		'sphamba/smear-cursor.nvim',
+		lazy = false,
+		opts = {},
+	},
+
+	{
+		'arnamak/stay-centered.nvim',
+		lazy = false,
+		opts = {},
 	},
 }

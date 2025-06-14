@@ -2,7 +2,7 @@ require('nvchad.configs.lspconfig').defaults()
 
 local lspconfig = require 'lspconfig'
 
-local servers = { 'gopls', 'rust_analyzer', 'ts_ls', 'svelte' }
+local servers = { 'gopls', 'rust_analyzer', 'zls', 'ts_ls' }
 local nvlsp = require 'nvchad.configs.lspconfig'
 
 for _, lsp in ipairs(servers) do
