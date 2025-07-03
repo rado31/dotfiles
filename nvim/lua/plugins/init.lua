@@ -1,56 +1,53 @@
 return {
-	{
-		'stevearc/conform.nvim',
-		event = 'BufWritePre',
-		opts = require 'configs.conform',
-	},
+  {
+    "stevearc/conform.nvim",
+    event = "BufWritePre",
+    opts = require "configs.conform",
+  },
 
-	{
-		'neovim/nvim-lspconfig',
-		config = function()
-			require 'configs.lspconfig'
-		end,
-	},
+  {
+    "neovim/nvim-lspconfig",
+    config = function()
+      require "configs.lspconfig"
+    end,
+  },
 
-	{
-		'nvim-treesitter/nvim-treesitter',
-		opts = {
-			ensure_installed = {
-				'vim',
-				'go',
-				'gomod',
-				'rust',
-				'toml',
-				'yaml',
-				'zig',
-				'typescript',
-				'javascript',
-				'tsx',
-				'css',
-				'html',
-				'vue',
-				'markdown',
-				'markdown_inline',
-			},
-		},
-	},
+  { import = "nvchad.blink.lazyspec" },
 
-	{
-		'nvim-tree/nvim-tree.lua',
-		opts = function()
-			return require 'plugins.configs.nvimtree'
-		end,
-	},
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
+        "vim",
+        "lua",
+        "html",
+        "css",
+        "go",
+        "rust",
+        "typescript",
+        "tsx",
+        "javascript",
+        "sql",
+      },
+    },
+  },
 
-	{
-		'sphamba/smear-cursor.nvim',
-		lazy = false,
-		opts = {},
-	},
+  {
+    "nvim-tree/nvim-tree.lua",
+    opts = function()
+      return require "plugins.configs.nvimtree"
+    end,
+  },
 
-	{
-		'arnamak/stay-centered.nvim',
-		lazy = false,
-		opts = {},
-	},
+  {
+    "sphamba/smear-cursor.nvim",
+    lazy = false,
+    opts = {},
+  },
+
+  {
+    "arnamak/stay-centered.nvim",
+    lazy = false,
+    opts = {},
+  },
 }
