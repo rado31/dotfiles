@@ -43,3 +43,6 @@ map(
     ":Telescope file_browser path=%:p:h select_buffer=true<CR>",
     { silent = true }
 )
+
+-- lsp
+map("n", "gd", vim.lsp.buf.definition)
