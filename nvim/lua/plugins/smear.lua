@@ -1,7 +1,7 @@
 return {
-    {
-        "sphamba/smear-cursor.nvim",
-        lazy = false,
-        opts = {},
-    },
+	{
+		"sphamba/smear-cursor.nvim",
+		lazy = false,
+		opts = {},
+	},
 }
