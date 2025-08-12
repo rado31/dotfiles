@@ -4,7 +4,13 @@ return {
 	opts = {
 		servers = {
 			ts_ls = {},
-			gopls = {},
+			gopls = {
+				settings = {
+					gopls = {
+						gofumpt = true,
+					},
+				},
+			},
 			rust_analyzer = {},
 			zls = {},
 		},
