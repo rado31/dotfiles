@@ -15,5 +15,10 @@ return {
 			},
 			["<CR>"] = { "accept", "fallback" },
 		},
+		completion = {
+			menu = { border = "single" },
+			documentation = { window = { border = "single" } },
+		},
+		signature = { window = { border = "single" } },
 	},
 }
