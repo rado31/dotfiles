@@ -10,7 +10,7 @@ return {
 				selection_caret = " ",
 				entry_prefix = " ",
 				sorting_strategy = "ascending",
-				preview = false,
+				preview = true,
 			}),
 		},
 		cmd = function()
