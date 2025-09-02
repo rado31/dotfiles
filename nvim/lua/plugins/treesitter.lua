@@ -7,6 +7,8 @@ return {
 		opts = {
 			auto_install = true,
 			ensure_installed = {
+				"regex",
+				"bash",
 				"zig",
 				"go",
 				"gomod",
@@ -20,6 +22,7 @@ return {
 				"html",
 				"css",
 				"markdown",
+				"markdown_inline",
 			},
 			highlight = {
 				enable = true,
