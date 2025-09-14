@@ -8,6 +8,7 @@ cursor-invert-fg-bg = true
 font-size = 20
 font-family = "Rec Mono Casual"
 adjust-cell-height = 20%
+background-opacity = 0.9
 
 shell-integration = fish
 shell-integration-features = no-cursor 
