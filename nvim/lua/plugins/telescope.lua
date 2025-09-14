@@ -1,11 +1,9 @@
-local themes = require("telescope.themes")
-
 return {
 	{
 		"nvim-telescope/telescope.nvim",
 		extensions = { "ui-select" },
 		opts = {
-			defaults = vim.tbl_extend("force", themes.get_dropdown(), {
+			defaults = vim.tbl_extend("force", require("telescope.themes").get_dropdown(), {
 				prompt_prefix = "   ",
 				selection_caret = " ",
 				entry_prefix = " ",
