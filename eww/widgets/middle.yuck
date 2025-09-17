@@ -1,0 +1,5 @@
+(defwidget middle []
+    (box :halign "center"
+        ""
+    )
+)

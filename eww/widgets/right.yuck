@@ -1,0 +1,9 @@
+(defpoll time :interval "1s"
+    `date +%H:%M`
+)
+
+(defwidget right []
+    (box :halign "end"
+        time
+    )
+)

@@ -1,0 +1,4 @@
+(include "widgets/left.yuck")
+(include "widgets/middle.yuck")
+(include "widgets/right.yuck")
+(include "widgets/bar.yuck")

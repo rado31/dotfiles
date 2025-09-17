@@ -1,0 +1,20 @@
+* {
+    all: unset;
+    color: #86d0fb;
+    font-family: "Rec Mono Casual";
+}
+
+window {
+    border-radius: 8px;
+    background: #212830;
+}
+
+.layout {
+    margin: 10px 20px;
+}
+
+.workspace {
+    margin: 0px 5px;
+    background: none;
+    border-radius: 50%;
+}
