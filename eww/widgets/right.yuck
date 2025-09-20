@@ -1,9 +1,12 @@
-(defpoll time :interval "1s"
-    `date +%H:%M`
-)
+(defvar volico "󰕾 ")
+(deflisten volume "~/.config/eww/scripts/get_volume.bash")
 
 (defwidget right []
     (box :halign "end"
-        time
+        (box :class "volume"
+            (label :text "${volico}" :class "volico")
+            (label :text "${volume}%")
+        )
     )
 )
+

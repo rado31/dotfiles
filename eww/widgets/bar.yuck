@@ -6,7 +6,6 @@
         :anchor "top center"
     )
     :exclusive true
-    :stacking "fg"
 
     (box :class "layout"
         (left)

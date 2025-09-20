@@ -1,20 +1,37 @@
 * {
     all: unset;
-    color: #86d0fb;
     font-family: "Rec Mono Casual";
 }
 
 window {
     border-radius: 8px;
-    background: #212830;
+    background-color: rgba(24,24,37,0.94);
 }
 
 .layout {
-    margin: 10px 20px;
+    padding: 8px;
 }
 
 .workspace {
+    color: #86d0fb;
     margin: 0px 5px;
     background: none;
     border-radius: 50%;
+}
+
+.time, .volume {
+    color: #cdd6f4;
+    padding: 8px 15px;
+    margin: 0px 5px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.38);
+}
+
+.volico {
+    color: #9068DC;
+    font-size: 18px;
+}
+
+.time {
+    color: #4BC1C2;
 }

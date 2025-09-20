@@ -1,14 +1,15 @@
 (deflisten workspaces :initial "[]" "~/.config/eww/scripts/workspaces.bash")
-(deflisten current_workspace :initial "1" "~/.config/eww/scripts/active_workspace.bash")
+(defvar active "1")
 
 (defwidget left []
-    (box :halign "start" :class "workspaces"
+    (box :halign "start"
         (for workspace in workspaces
             (button
-                :class "workspace ${current_workspace == workspace.id ? "current" : ""}"
+                :class "workspace"
                 :onclick "hyprctl dispatch workspace ${workspace.id}"
-                "${current_workspace == workspace.id ? "" : ""}"
+                "${active == workspace.id ? " " : " "}"
             )
         )
     )
 )
+
