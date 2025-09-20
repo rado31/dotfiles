@@ -1,0 +1,74 @@
+@keyframes fadeIn {
+    0% {}
+    100% {}
+}
+
+* {
+    font-family: "Rec Mono Casual";
+    font-size: 18px;
+    outline: none;
+    border: none;
+    text-shadow: none;
+    background: none;
+}
+
+window {
+    all: unset;
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(26, 32, 47, .999);
+}
+
+#inner-box, #outer-box, #scroll {
+    border: none;
+}
+
+#inner-box {
+    padding: 15px;
+}
+
+#scroll {
+    margin: 0px;
+}
+
+#input {
+    all: unset;
+    color: #86D0FB;
+    margin: 20px 20px 10px 20px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    background-color: rgba(62, 70, 78, .5);
+}
+
+#input image {
+    border: none;
+    color: #86D0FB;
+    margin-right: 10px;
+}
+
+#text {
+    margin: 20px;
+    color: #C4CDEA;
+}
+
+#entry {
+    border: none;
+    margin: 5px;
+    padding-left: 20px;
+}
+
+#entry arrow {
+    margin-right: 10px;
+    border: none;
+    color: #00ffb7;
+}
+
+#entry:selected {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(62, 70, 78, 0.5);
+}

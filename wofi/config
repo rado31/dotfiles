@@ -1,0 +1,10 @@
+[config]
+allow_images=true
+show=drun
+prompt=Search
+height=400
+always_parse_args=true
+show_all=true
+hide_scroll=true
+insensitive=true
+columns=1
