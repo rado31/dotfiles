@@ -12,6 +12,13 @@ window {
     padding: 8px;
 }
 
+.workspaces, .time, .volume {
+    padding: 8px 15px;
+    margin: 0px 5px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.38);
+}
+
 .workspace {
     color: #86d0fb;
     margin: 0px 5px;
@@ -19,17 +26,13 @@ window {
     border-radius: 50%;
 }
 
-.time, .volume {
-    color: #cdd6f4;
-    padding: 8px 15px;
-    margin: 0px 5px;
-    border-radius: 20px;
-    background-color: rgba(0,0,0,0.38);
-}
-
 .volico {
     color: #9068DC;
     font-size: 18px;
+}
+
+.vol-text {
+    color: #cdd6f4;
 }
 
 .time {

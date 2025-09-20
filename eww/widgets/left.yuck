@@ -2,7 +2,7 @@
 (defvar active "1")
 
 (defwidget left []
-    (box :halign "start"
+    (box :halign "start" :class "workspaces"
         (for workspace in workspaces
             (button
                 :class "workspace"

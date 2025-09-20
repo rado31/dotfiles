@@ -5,7 +5,7 @@
     (box :halign "end"
         (box :class "volume"
             (label :text "${volico}" :class "volico")
-            (label :text "${volume}%")
+            (label :text "${volume}%" :class "vol-text")
         )
     )
 )
