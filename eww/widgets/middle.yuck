@@ -1,9 +1,11 @@
 (defpoll time :interval "1s"
-    `date +%H:%M`
+    `date "+%d-%m-%Y ─ %H:%M:%S"`
 )
 
 (defwidget middle []
     (box :halign "center"
-        (label :text time :class "time")
+        (eventbox :onclick "~/.config/eww/scripts/calendar.bash" :cursor "pointer"
+            (label :text time :class "time")
+        )
     )
 )

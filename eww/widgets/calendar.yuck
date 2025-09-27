@@ -1,0 +1,13 @@
+(defvar calrev false)
+
+(defwindow calendar
+    :monitor 0
+    :stacking "overlay"
+    :geometry (geometry :anchor "top center" :y "5px")
+
+    (revealer :transition "slidedown" :reveal calrev :duration "50ms"
+        (box :class "cal-container"
+            (calendar)
+        )
+    )
+)

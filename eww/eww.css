@@ -4,11 +4,12 @@
 }
 
 window {
-    border-radius: 8px;
-    background-color: rgba(24,24,37,0.94);
+    background: none;
 }
 
 .layout {
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 8px;
     padding: 8px;
 }
 
@@ -16,13 +17,12 @@ window {
     padding: 8px 15px;
     margin: 0px 5px;
     border-radius: 20px;
-    background-color: rgba(0,0,0,0.38);
+    background-color: rgba(0, 0, 0, .7);
 }
 
 .workspace {
-    color: #86d0fb;
+    color: #86D0FB;
     margin: 0px 5px;
-    background: none;
     border-radius: 50%;
 }
 
@@ -31,10 +31,28 @@ window {
     font-size: 18px;
 }
 
-.vol-text {
-    color: #cdd6f4;
+.vol-text, calendar {
+    color: #CDD6F4;
 }
 
 .time {
     color: #4BC1C2;
+}
+
+.cal-container {
+    background-color: #232831;
+    border-radius: 16px;
+    padding: 15px;
+}
+
+calendar {
+    padding: 5px;
+}
+
+calendar .header, .button, .highlight, calendar:selected {
+    color: #4BC1C2;
+}
+
+calendar .button:hover{
+    color: #DB6061;
 }
