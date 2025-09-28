@@ -3,3 +3,4 @@
 (include "widgets/right.yuck")
 (include "widgets/bar.yuck")
 (include "widgets/calendar.yuck")
+(include "widgets/power/main.yuck")

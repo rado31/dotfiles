@@ -3,9 +3,19 @@
 
 (defwidget right []
     (box :halign "end"
-        (box :class "volume"
-            (label :text "${volico}" :class "volico")
-            (label :text "${volume}%" :class "vol-text")
+        (box :class "right-components"
+            (box
+                (label :text "${volico}" :class "volico")
+                (label :text "${volume}%" :class "vol-text")
+            )
+            (eventbox :onclick "~/.config/eww/scripts/power.bash" :cursor "pointer"
+                (image
+                    :path "/home/rado/Pictures/icons/power.svg"
+                    :fill-svg "#E57E80"
+                    :image-width 18
+                    :image-height 18
+                )
+            )
         )
     )
 )

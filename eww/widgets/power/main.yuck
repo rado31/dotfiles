@@ -1,0 +1,39 @@
+(include "widgets/power/btn.yuck")
+
+(defvar power_btn_1 "")
+(defvar power_btn_2 "")
+(defvar power_btn_3 "")
+
+(defwindow power
+    :monitor 0
+    :stacking "overlay"
+    :geometry (geometry :anchor "center center")
+
+    (box :class "power"
+        (box :orientation "h" :class "power-container"
+            (btn
+                :id 1
+                :path "/home/rado/Pictures/icons/power.svg"
+                :color "#E57E80"
+                :onclick "poweroff"
+                :class power_btn_1
+            )
+
+            (btn
+                :id 2
+                :path "/home/rado/Pictures/icons/refresh.svg"
+                :color "#7FBBB3"
+                :onclick "reboot"
+                :class power_btn_2
+            )
+
+            (btn
+                :id 3
+                :path "/home/rado/Pictures/icons/face-sleeping.svg"
+                :color "#DABC7F"
+                :onclick "systemctl suspend"
+                :class power_btn_3
+            )
+        )
+    )
+)

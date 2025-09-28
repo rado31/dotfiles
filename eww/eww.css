@@ -13,11 +13,15 @@ window {
     padding: 8px;
 }
 
-.workspaces, .time, .volume {
+.workspaces, .time, .right-components {
     padding: 8px 15px;
     margin: 0px 5px;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, .7);
+}
+
+.right-components {
+    padding: 8px 0px 8px 15px;
 }
 
 .workspace {
@@ -27,7 +31,7 @@ window {
 }
 
 .volico {
-    color: #9068DC;
+    color: #92B259;
     font-size: 18px;
 }
 
@@ -55,4 +59,37 @@ calendar .header, .button, .highlight, calendar:selected {
 
 calendar .button:hover{
     color: #DB6061;
+}
+
+.power {
+    padding: 5px;
+}
+
+.power-container {
+    background-color: #232831;
+    padding: 20px 10px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 2px black, -1px -1px 2px black;
+}
+
+.power-btn {
+    padding: 20px;
+    border-radius: 16px;
+    margin: 0px 15px;
+}
+
+.power-btn-black {
+    box-shadow: 1px 1px 2px black, -1px -1px 2px black;
+}
+
+.power-btn-1 {
+    box-shadow: 1px 1px 2px #E57E80, -1px -1px 2px #E57E80;
+}
+
+.power-btn-2 {
+    box-shadow: 1px 1px 2px #7FBBB3, -1px -1px 2px #7FBBB3;
+}
+
+.power-btn-3 {
+    box-shadow: 1px 1px 2px #DABC7F, -1px -1px 2px #DABC7F;
 }

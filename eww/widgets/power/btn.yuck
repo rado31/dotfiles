@@ -1,0 +1,17 @@
+(defwidget btn [id path color onclick ?class]
+    (box :class "power-btn power-btn-black ${class}"
+        (eventbox
+            :cursor "pointer"
+            :onhover "eww update power_btn_${id}=\"power-btn-${id}\""
+            :onhoverlost "eww update power_btn_${id}=\"power-btn-black\""
+            :onclick "eww close power && ${onclick}"
+
+            (image
+                :path path
+                :fill-svg color
+                :image-width 26
+                :image-height 26
+            )
+        )
+    )
+)
