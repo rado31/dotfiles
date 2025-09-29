@@ -1,0 +1,30 @@
+[global]
+monitor = 0
+font = Rec Mono Casual
+padding = 20
+corner_radius = 16
+markup = yes
+alignment = center
+word_wrap = yes
+ignore_newline = no
+stack_duplicates = true
+hide_duplicate_count = false
+show_indicators = yes
+
+[urgency_low]
+background = "#3B4252"
+foreground = "#ECEFF4"
+frame_color = "#81A1C1"
+timeout = 3
+
+[urgency_normal]
+background = "#2E3440"
+foreground = "#ECEFF4"
+frame_color = "#88C0D0"
+timeout = 3
+
+[urgency_critical]
+background = "#BF616A"
+foreground = "#ECEFF4"
+frame_color = "#D08770"
+timeout = 3
