@@ -8,3 +8,4 @@
 - [fzf](https://github.com/junegunn/fzf)
 - [jq](https://github.com/jqlang/jq)
 - [socat](https://archlinux.org/packages/extra/x86_64/socat/)
+- [swww](https://github.com/LGFae/swww)
