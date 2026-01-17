@@ -1,5 +1,6 @@
 theme = EverforestLow
 fullscreen = true
+theme = everforest
 
 cursor-style = block
 cursor-style-blink = false
