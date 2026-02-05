@@ -10,5 +10,12 @@ return {
   { "mfussenegger/nvim-lint", enabled = false },
   { "nvim-treesitter/nvim-treesitter-textobjects", enabled = false },
   { "windwp/nvim-ts-autotag", enabled = false },
-  { "ts-comments.nvim", enabled = false },
+  { "blink.cmp", enabled = false },
+  { "flash.nvim", enabled = false },
+  { "friendly-snippets", enabled = false },
+  { "gitsigns.nvim", enabled = false },
+  { "mason-lspconfig.nvim", enabled = false },
+  { "mason.nvim", enabled = false },
+  { "nvim-lspconfig", enabled = false },
+  { "nvim-treesitter", enabled = false },
 }
