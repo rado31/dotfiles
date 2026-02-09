@@ -9,6 +9,15 @@ return {
   },
 
   {
+    "lualine.nvim",
+    opts = {
+      sections = {
+        lualine_z = {},
+      },
+    },
+  },
+
+  {
     "conform.nvim",
     opts = {
       formatters_by_ft = {
