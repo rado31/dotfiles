@@ -4,7 +4,14 @@ return {
   {
     "snacks.nvim",
     opts = {
-      picker = { exclude = { "nodu_modules", ".git", "target" } },
+      picker = {
+        sources = {
+          files = { hidden = true },
+          grep = { hidden = true },
+          explorer = { hidden = true },
+        },
+        exclude = { "nodu_modules", ".git", "target" },
+      },
     },
   },
 
