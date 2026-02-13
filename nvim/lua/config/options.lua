@@ -5,3 +5,4 @@ vim.opt.colorcolumn = "100"
 vim.opt.wrap = true
 vim.opt.guicursor = "i:block"
 vim.o.winborder = "rounded"
+vim.o.undofile = false
