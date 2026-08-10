@@ -1,6 +1,0 @@
-(include "widgets/left.yuck")
-(include "widgets/middle.yuck")
-(include "widgets/right.yuck")
-(include "widgets/bar.yuck")
-(include "widgets/calendar.yuck")
-(include "widgets/power/main.yuck")
