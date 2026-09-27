@@ -1,12 +1,12 @@
-theme = EverforestLow
-fullscreen = true
+fullscreen = false
+maximize = true
 theme = everforest
 
 cursor-style = block
 cursor-style-blink = false
 cursor-invert-fg-bg = true
 
-font-size = 20
+font-size = 22
 font-family = "Rec Mono Casual"
 adjust-cell-height = 20%
 background-opacity = 0.9
